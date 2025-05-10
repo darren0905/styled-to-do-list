@@ -1,0 +1,45 @@
+.title {
+  text-align: center;
+  font-family: cursive;
+}
+
+li {
+  margin-bottom: 40px;
+}
+
+.todotask { /* each to do task */
+  background-color: DarkSeaGreen;
+  border-radius: 7px;
+}
+
+.sub-item {
+  line-height: 50px;
+}
+
+.sub-item-link /* each sub-link containing link */{
+  text-decoration: none;
+  margin: 10px;
+  line-height: 30px;
+}
+
+.sub-item-link:visited {
+  text-decoration: none;
+  color: #4b0082; 
+}
+
+.sub-item-link:hover {
+  color: #ff6600; 
+}
+
+.sub-item-link:focus {
+  outline: 2px solid #00cc66; 
+  outline-offset: 2px;
+}
+
+.sub-item-link:active {
+  color: #cc0000;
+}
+
+label {
+  font-family: sans-serif;
+}
